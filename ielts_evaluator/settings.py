@@ -119,7 +119,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 没成功，decouple可以取到CHATGPT_API_KEY就是取不到SECRET_KEY，神奇
 # SECRET_KEY = config('SECRET_KEY')
 
-# 通过本地变量存储key,成功了
+# 通过本地变量存储key,成功了，但是SECRET_KEY没成功
 # CHATGPT_API_KEY = config('CHATGPT_API_KEY')
 
 # 通过本地变量存储key
