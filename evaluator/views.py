@@ -56,6 +56,7 @@ load_dotenv()
 
 #CHATGPT_API_KEY = os.getenv('CHATGPT_API_KEY')
 CHATGPT_API_KEY = os.environ.get('CHATGPT_API_KEY')
+print(CHATGPT_API_KEY)
 SECRET_KEY = os.getenv('SECRET_KEY')
 
 @csrf_exempt
