@@ -83,7 +83,7 @@ def chatgpt_view(request):
 
             response = requests.post(api_url, headers=headers, json=payload)
             response_data = response.json()
-            # print("Full API Response:", response_data)  # Debugging
+            print("Full API Response:", response_data)  # Debugging
 
             # Check for errors in the response
             if response.status_code != 200:
