@@ -48,7 +48,6 @@ from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import requests
 import json
-from decouple import config
 from dotenv import load_dotenv
 import os
 
