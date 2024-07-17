@@ -1,0 +1,3 @@
+# Django .gitignore
+.env
+ielts_env
