@@ -55,6 +55,7 @@ load_dotenv()
 
 #CHATGPT_API_KEY = os.getenv('CHATGPT_API_KEY')
 CHATGPT_API_KEY = os.environ['CHATGPT_API_KEY']
+# os.environ can be accepted by vercel
 print(CHATGPT_API_KEY)
 SECRET_KEY = os.getenv('SECRET_KEY')
 
