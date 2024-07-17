@@ -103,3 +103,4 @@ def chatgpt_view(request):
         except Exception as e:
             return JsonResponse({'error': str(e)}, status=500)
     return JsonResponse({"error": "Invalid request method"}, status=405)
+
