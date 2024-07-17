@@ -1,6 +1,5 @@
 # settings.py
 import os
-from decouple import config
 from dotenv import load_dotenv
 from pathlib import Path
 
@@ -125,4 +124,5 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 # 通过本地变量存储key
 SECRET_KEY = os.getenv('SECRET_KEY', 'default-secret-key')
 CHATGPT_API_KEY = os.getenv('CHATGPT_API_KEY', 'default-chatgpt-api-key')
+
 
