@@ -16,7 +16,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '.vercel.app', 'localhost']
 
 # Application definition
 
@@ -63,7 +63,9 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'ielts_evaluator.wsgi.application'
+# WSGI_APPLICATION = 'ielts_evaluator.wsgi.application'
+WSGI_APPLICATION = 'ielts_evaluator.wsgi.app'
+
 
 # Database
 # https://docs.djangoproject.com/en/5.0/ref/settings/#databases
