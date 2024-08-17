@@ -5,6 +5,7 @@
 Magic 7+ is an AI-powered tool designed to help IELTS candidates improve their writing skills. It evaluates your essays based on four key aspects: Task Achievement and Response, Coherence and Cohesion, Lexical Resources, and Grammatical Range and Accuracy. By using this tool, you can receive detailed feedback and a score that mimics the evaluation standards of IELTS examiners.
 
 Front-end: https://github.com/ellyjj1/ielts-evaluator-frontend
+
 Back-end: https://github.com/ellyjj1/ielts-evaluator-backend
 
 ## 2. How to Install
